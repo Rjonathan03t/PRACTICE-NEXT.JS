@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9vw;
+    && ul li {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+}
+
+.blogContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    margin-left: 4vw;
+    align-items: center;
+}
+
+.blogImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 45vw;
+}
+
+footer{
+    border-top: 1px solid black;
+    text-align: center;
+    margin-top: 8vw;
+}
