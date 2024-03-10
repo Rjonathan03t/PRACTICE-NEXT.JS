@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Header from '@/pages/header';
-import Footer from '@/pages/Footer';
+import Footer from '@/pages/footer';
 const blog = [
     { id: 1, contain: 'blog number1' },
     { id: 2, contain: 'blog number2' },
