@@ -1,9 +1,4 @@
 import Link from "next/link";
-import "../pages/home.css";
-import Header from "@/pages/header";
-import Footer from "@/pages/footer";
-
-
 const blog = [
     { id: 1, contain: 'blog number1' },
     { id: 2, contain: 'blog number2' },
@@ -11,21 +6,17 @@ const blog = [
     { id: 4, contain: 'blog number4' },
     { id: 5, contain: 'blog number5' }
 ]
-export default function home() {
+export default function blogList (){
     return (
         <div>
-            <Header/>
-            <main>
-                <h1>HOME</h1>
                 <ul>
+                    <p>BLOG-LIST</p>
                     {blog.map(blog => (
                         <li key={blog.id}>
                             <Link href={`/blog/${blog.id}`}>{blog.contain}</Link>
                         </li>
                     ))}
                 </ul>
-            </main>
-            <Footer/>
         </div>
     )
 }

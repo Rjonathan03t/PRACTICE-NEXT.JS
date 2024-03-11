@@ -16,11 +16,17 @@ main{
     }
 }
 
+.homePage{
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+}
+
 .blogContent{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100vw;
+    width: 80vw;
     margin-left: 4vw;
     align-items: center;
 }
